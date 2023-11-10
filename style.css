@@ -1,0 +1,23 @@
+/* Color Pallete */
+/* Primary color, secondary color, background color */
+/* Responsive code */
+/* Desktop */
+@media (min-width: 768px) {
+  body {
+    background-color: #f2f2f2;
+  }
+}
+
+/* Tablet */
+@media (max-width: 767px) {
+  body {
+    background-color: #f2f2f2;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  body {
+    background-color: #f2f2f2;
+  }
+}
