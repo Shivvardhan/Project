@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        padding: 0.5vw;
+        display: flex;
+        flex-direction: row;
+        background: linear-gradient(to right, #ed3f0f, #ff6633);
+        color: white;
+    }
+    .nav_container{
+        margin-left: 7vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2vw;
+        font-size: larger;
+        font-weight: 800;
+    }
+    .icon{
+        margin-left: 66vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        font-size: larger;
+        gap: 1vw;
+    }
+    .logo img{
+        border-radius: 50%;
+        height: 7vh;
+        width: 7vh;
+    }
+    .item{
+        padding: 1vw;
+        width: 30vw;
+        border-radius: 10px;
+        align-items: center;
+        text-align: center;
+        color: white;
+        font-weight: 800;
+        background: linear-gradient(to right, #ff5900, #ff6633);
+        
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1.2vw;
+    }
+    .box{
+        display: block;
+        height: 33vw;
+        width: 50vw;
+        margin: auto;
+        border-radius: 10px;
+        background-color: rgb(226, 225, 223);
+    }
+</style>
+<script src="https://kit.fontawesome.com/a28e188e67.js" crossorigin="anonymous"></script>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./logo-01.jpg" alt="">
+        </div>
+        <div class="nav_container">
+            <div>Home</div>
+            <div>Features</div>
+            <div>About</div>
+        </div>
+        <div class="icon">
+            <div><i class="fab fa-facebook"></i></div>
+            <div><i class="fab fa-twitter"></i></div>
+            <div><i class="fab fa-instagram"></i></div>
+        </div>
+    </nav>
+    <main>
+    <div class="box">
+        <div class="container">
+            <div class="item" style="margin-top: 2vw;">ID Card Apply</div>
+            <div class="item">ADS Apply</div>
+            <div class="item">Card Download</div>
+            <div class="item">Admin Login</div>
+            <div class="item">E-Paper Download</div>
+            <div class="item">E-Paper Apply</div>
+         </div>
+    </div>
+    </main>
+    <footer>
+    </footer>
+</body>
+</html>
